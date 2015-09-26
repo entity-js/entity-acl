@@ -12,6 +12,8 @@
  * Entity ACL
  */
 
+require('entity-core');
+
 var test = require('unit.js'),
     loader = require('nsloader'),
     Sanitizers = loader('Entity/Sanitizers'),
